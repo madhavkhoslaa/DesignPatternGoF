@@ -109,6 +109,6 @@ const WebPage: String = HTMLBuilder.Title("Wikipedia")
     "Builder classes must be mutable.",
     "May hamper/complicate dependency injection.",
   ])
-  .save()
+  .save("./src/Creational/Builder")
   .build();
 console.log(WebPage);
